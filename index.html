@@ -9,11 +9,19 @@
       <!-- Styles -->
 
       <link rel="stylesheet" href="./css/reset.css" />
+      <link
+         rel="stylesheet"
+         href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+      />
       <link rel="stylesheet" href="./css/style.css" />
       <link rel="stylesheet" href="./assets/fonts/style.css" />
 
       <!-- Scripts -->
 
+      <script
+         src="https://unpkg.com/swiper@8/swiper-bundle.min.js"
+         defer
+      ></script>
       <script src="./js/main.js" defer></script>
    </head>
    <body>
@@ -44,35 +52,37 @@
          </nav>
       </header>
       <main>
+         <!-- Home -->
          <section class="section main__home" id="home">
-            <div class="home__img-container">
+            <div class="home__img-container image">
                <img
                   class="home__img"
                   src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
                   alt="Mulher sorrindo penteando outra mulher"
                />
             </div>
-            <div class="container">
+            <div class="container text">
                <h2 class="home__title">Saúde natural para os seus cabelos</h2>
                <p class="home__desc">
                   Um salão exclusivo em São Paulo, especializado em tratamentos
                   naturais.
                </p>
-               <a class="home__btn" href="#">Agendar um horário</a>
+               <a class="btn" href="#">Agendar um horário</a>
             </div>
          </section>
 
          <div class="divider-1"></div>
 
+         <!-- About -->
          <section class="section main__about" id="about">
-            <div class="about__img-container">
+            <div class="about__img-container image">
                <img
                   class="about__img"
                   src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
                   alt="3 mulheres sorrindo"
                />
             </div>
-            <div class="container">
+            <div class="container text">
                <div class="about__text">
                   <h2 class="about__title">Sobre nós</h2>
                   <p>
@@ -99,6 +109,7 @@
 
          <div class="divider-2"></div>
 
+         <!-- Services -->
          <section class="section main__services" id="services">
             <div class="container">
                <header class="services__header">
@@ -136,6 +147,107 @@
                         totalmente veganos, para qualquer tipo de cabelo.
                      </p>
                   </div>
+               </div>
+            </div>
+         </section>
+
+         <div class="divider-1"></div>
+
+         <!-- Testimonials -->
+         <section class="section main__testimonials" id="testimonials">
+            <div class="container swiper">
+               <header class="testimonials__header">
+                  <h2>Depoimentos de quem já passou por aqui</h2>
+               </header>
+
+               <div class="testimonials-wrapper swiper-wrapper">
+                  <div class="testimonial swiper-slide">
+                     <blockquote>
+                        <p>
+                           <span>&ldquo;</span>
+                           Eu sou cliente do Beautysalon há 5 anos e não troco
+                           por nada! Certamente meu cabelo mudou muito depois
+                           que comecei a tratar somente com produtos naturais e
+                           veganos. São profissionais incríveis e qualificados.
+                        </p>
+                        <cite>
+                           <img
+                              src="https://randomuser.me/api/portraits/women/31.jpg"
+                              alt="Foto de Wanessa Souza"
+                           />
+                           Wanessa Souza
+                        </cite>
+                     </blockquote>
+                  </div>
+
+                  <div class="testimonial swiper-slide">
+                     <blockquote>
+                        <p>
+                           <span>&ldquo;</span>
+                           Eu sou cliente do Beautysalon há 5 anos e não troco
+                           por nada! Certamente meu cabelo mudou muito depois
+                           que comecei a tratar somente com produtos naturais e
+                           veganos. São profissionais incríveis e qualificados.
+                        </p>
+                        <cite>
+                           <img
+                              src="https://randomuser.me/api/portraits/women/24.jpg"
+                              alt="Foto de Franciele Venega"
+                           />
+                           Franciele Venega
+                        </cite>
+                     </blockquote>
+                  </div>
+
+                  <div class="testimonial swiper-slide">
+                     <blockquote>
+                        <p>
+                           <span>&ldquo;</span>
+                           Eu sou cliente do Beautysalon há 5 anos e não troco
+                           por nada! Certamente meu cabelo mudou muito depois
+                           que comecei a tratar somente com produtos naturais e
+                           veganos. São profissionais incríveis e qualificados.
+                        </p>
+                        <cite>
+                           <img
+                              src="https://randomuser.me/api/portraits/women/9.jpg"
+                              alt="Foto de Valeska Fabris"
+                           />
+                           Valeska Fabris
+                        </cite>
+                     </blockquote>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <div class="divider-2"></div>
+
+         <!-- Contact -->
+
+         <section class="section main__contact" id="contact">
+            <div class="container">
+               <div class="contact__text">
+                  <header>
+                     <h2>Entre em contato com a gente!</h2>
+                  </header>
+                  <p>
+                     Entre em contato com a Beautysalon, queremos tirar suas
+                     dúvidas, ouvir suas críticas e sugestões.
+                  </p>
+                  <a
+                     href="https://api.whatsapp.com/send?phone=5511985559128&text=Oi!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio."
+                     class="btn"
+                     target="_blank"
+                     ><i class="icon-whatsapp"></i>Entrar em contato</a
+                  >
+               </div>
+               <div class="contact__links">
+                  <ul>
+                     <li><i class="icon-phone"></i>11 99845-6754</li>
+                     <li><i class="icon-map-pin"></i>R. Amauri Souza, 346</li>
+                     <li><i class="icon-mail"></i>contato@beautysalon.com</li>
+                  </ul>
                </div>
             </div>
          </section>

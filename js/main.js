@@ -23,3 +23,13 @@ window.addEventListener('scroll', () => {
       header.classList.remove('scroll');
    }
 });
+
+// Swiper
+
+const swiper = new Swiper('.swiper', {
+   slidesPerView: 1,
+   pagination: {
+      el: '.swiper-pagination',
+   },
+   keyboard: true,
+});
