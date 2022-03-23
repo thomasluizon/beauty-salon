@@ -111,6 +111,13 @@ nav {
    justify-content: space-between;
    height: var(--header-height);
    width: 100%;
+   position: relative;
+}
+
+.icon-menu {
+   position: absolute;
+   top: 1.5rem;
+   right: 1.5rem;
 }
 
 nav .menu {
