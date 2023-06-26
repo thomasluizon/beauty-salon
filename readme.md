@@ -1,8 +1,8 @@
 # Beauty Salon project
 
-Made using only HTML, CSS and JavaScript <br/>
+![GitHub](https://img.shields.io/github/license/thomasluizon/beauty-salon)
 
-##
+Made using only HTML, CSS and JavaScript <br/>
 
 ![Design preview in fullscreen](./prints/fullscreen.png)
 
